@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vcordic_block
+Z0 !s110 1524459889
+!i10b 1
+!s100 bz;?fhd:ohKZ3H[XZRnbI0
+IZQM4NV;eb>NNjRDG@ND@G0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/ModelSim/cordic_implementation
+w1524459796
+8G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+FG:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1524459889.000000
+!s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vlookup_table
+R0
+!i10b 1
+!s100 YjC2BQfa2N6V[?4oi[@5h2
+I?Z]US9<D4P^K9iFE1LQ6f3
+R1
+R2
+w1524459734
+8G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
+FG:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
+!s101 -O0
+!i113 1
+R5
