@@ -1,0 +1,8 @@
+G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module lookup_table
+
+Top level modules:
+	lookup_table
+
+} {} {}}

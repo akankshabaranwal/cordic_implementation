@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vcordic_block
-Z0 !s110 1524459889
+Z0 !s110 1524463826
 !i10b 1
-!s100 bz;?fhd:ohKZ3H[XZRnbI0
-IZQM4NV;eb>NNjRDG@ND@G0
+!s100 n]908knYFMiY;ZIT[ZJfN3
+IzB1BS<n>0T<aPcUaA<IV@3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dG:/ModelSim/cordic_implementation
-w1524459796
+w1524463822
 8G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
 FG:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1524459889.000000
+Z4 !s108 1524463826.000000
 !s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
 !s101 -O0
@@ -47,6 +47,27 @@ r1
 R4
 !s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
+!s101 -O0
+!i113 1
+R5
+vtest_bench
+R0
+!i10b 1
+!s100 3V]lezY79GHJIEmW:F3cT0
+IOFY?jDJzH@0]47nZjJcN32
+R1
+R2
+w1524463788
+8G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
+FG:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v|
 !s101 -O0
 !i113 1
 R5
