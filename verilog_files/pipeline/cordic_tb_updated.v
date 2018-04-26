@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-  module cordic_tb;
+  module cordic_tb_updated;
     reg clk;
     reg [31:0] x0;
     reg [31:0] y0;
@@ -27,7 +27,7 @@
     wire [31:0] x;
     wire [31:0] y;
 
-   cordic uut(
+   cordic_updated uut(
     .clk(clk),
     .x0(x0),
     .y0(y0),
