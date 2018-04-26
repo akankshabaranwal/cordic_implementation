@@ -28,22 +28,22 @@ output reg [31:0] y
 );
 
 	reg [31:0] tanarray [0:15];
-	parameter [31:0]i0;
-	parameter [31:0]i1;
-	parameter [31:0]i2;
-	parameter [31:0]i3;
-	parameter [31:0]i4;
-	parameter [31:0]i5;
-	parameter [31:0]i6;
-	parameter [31:0]i7;
-	parameter [31:0]i8;
-	parameter [31:0]i9;
-	parameter [31:0]i10;
-	parameter [31:0]i11;
-	parameter [31:0]i12;
-	parameter [31:0]i13;
-	parameter [31:0]i14;
-	parameter [31:0]i15;
+	parameter i0=0;
+	parameter i1=1;
+	parameter i2=2;
+	parameter i3=3;
+	parameter i4=4;
+	parameter i5=5;
+	parameter i6=6;
+	parameter i7=7;
+	parameter i8=8;
+	parameter i9=9;
+	parameter i10=10;
+	parameter i11=11;
+	parameter i12=12;
+	parameter i13=13;
+	parameter i14=14;
+	parameter i15=15;
 
 	initial begin
 		tanarray[0]<=32'd804;
@@ -62,22 +62,6 @@ output reg [31:0] y
 		tanarray[13]<=32'd0;
 		tanarray[14]<=32'd0;
 		tanarray[15]<=32'd0;
-		i0=32'd0
-		i1=32'd1
-		i2=32'd2
-		i3=32'd3
-		i4=32'd4
-		i5=32'd5
-		i6=32'd6
-		i7=32'd7
-		i8=32'd8
-		i9=32'd9
-		i10=32'd10;
-		i11=32'd11;
-		i12=32'd12;
-		i13=32'd13;
-		i14=32'd14;
-		i15=32'd15;
 	end
 
 	  shift_accumulate shift_accumulate0(.x(x0),.y(y0),.z(z0),.clk(clk),.i(i0),.x_out(x1),.y_out(y1),.z_out(z1));

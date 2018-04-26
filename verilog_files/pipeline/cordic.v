@@ -30,22 +30,22 @@ output reg [31:0] y
 reg [31:0] tanarray [0:15];
 
 initial begin
-  tanarray[0]<=32'd804;
-  tanarray[1]<=32'd474;
-  tanarray[2]<=32'd250;
-  tanarray[3]<=32'd127;
-  tanarray[4]<=32'd63;
-  tanarray[5]<=32'd31;
-  tanarray[6]<=32'd15;
-  tanarray[7]<=32'd7;
-  tanarray[8]<=32'd3;
-  tanarray[9]<=32'd1;
-  tanarray[10]<=32'd0;
-  tanarray[11]<=32'd0;
-  tanarray[12]<=32'd0;
-  tanarray[13]<=32'd0;
-  tanarray[14]<=32'd0;shift_accumulate0
-  tanarray[15]<=32'd0;
+  tanarray[0]<=32'd51471;
+  tanarray[1]<=32'd30385;
+  tanarray[2]<=32'd16054;
+  tanarray[3]<=32'd8149;
+  tanarray[4]<=32'd4090;
+  tanarray[5]<=32'd2047;
+  tanarray[6]<=32'd1023;
+  tanarray[7]<=32'd511;
+  tanarray[8]<=32'd255;
+  tanarray[9]<=32'd127;
+  tanarray[10]<=32'd63;
+  tanarray[11]<=32'd31;
+  tanarray[12]<=32'd15;
+  tanarray[13]<=32'd7;
+  tanarray[14]<=32'd3;
+  tanarray[15]<=32'd1;
 end
 
   shift_accumulate0 shift_accumulate0(.x(x0),.y(y0),.z(z0),.clk(clk),.x_out(x1),.y_out(y1),.z_out(z1));

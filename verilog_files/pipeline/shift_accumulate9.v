@@ -27,21 +27,21 @@ input [31:0] tan,
 input clk,
 output reg [31:0] x_out,
 output reg [31:0] y_out,
-output reg [31:0] z_out,
+output reg [31:0] z_out
     );
     always @(posedge clk)
        begin
-           if(z>0)
+           if($signed(z)>$signed(0))
            begin
               x_out<=x-(y>>9);
               y_out<=y+(x>>9);
-              z<=z-tan;
+              z_out<=z-tan;
            end
            else
            begin
                x_out<=x+(y>>9);
                y_out<=y-(x>>9);
-               z<=z+tan;
+               z_out<=z+tan;
            end
        end
 endmodule

@@ -8,66 +8,465 @@ z2
 !i10f 100
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
-vcordic_block
-Z0 !s110 1524746940
+vcordic
+!s110 1524749526
 !i10b 1
-!s100 n]908knYFMiY;ZIT[ZJfN3
-IzB1BS<n>0T<aPcUaA<IV@3
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dG:/ModelSim/cordic_implementation
-w1524463822
-8G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
-FG:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
-L0 1
-Z3 OP;L;10.4a;61
+!s100 R2oVbGj7K7]l_A;GXVeP>1
+IOO8SJzcN9YQ5gzn@a0E5S3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dG:/ModelSim/cordic_implementation
+w1524749520
+8G:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v
+FG:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v
+L0 21
+Z2 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1524746940.000000
+!s108 1524749526.000000
+!s107 G:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcordic_block
+Z4 !s110 1524749420
+!i10b 1
+!s100 n]908knYFMiY;ZIT[ZJfN3
+IzB1BS<n>0T<aPcUaA<IV@3
+R0
+R1
+w1524748972
+8G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+FG:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z5 !s108 1524749420.000000
 !s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v|
 !s101 -O0
 !i113 1
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+R3
 vlookup_table
-R0
+R4
 !i10b 1
 !s100 @OZTbl38<11a1bPZ?5_Tz0
 I41S5@X1k9g=YG4L3g:E=;1
+R0
 R1
-R2
 w1524746928
 8G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
 FG:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+R5
 !s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v|
 !s101 -O0
 !i113 1
+R3
+vpipelined_tb
+Z6 !s110 1524749421
+!i10b 1
+!s100 AmOdI[ZQTVgYWCoWQU20=2
+IA0[5mY2[NbHgMCidTTeHT1
+R0
+R1
+w1524747927
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v
+Z7 L0 22
+R2
+r1
+!s85 0
+31
 R5
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate
+R6
+!i10b 1
+!s100 ?66jDO`8J4PEGZ7io:gLe2
+Ib0E9z7GMfRGDIOPC7nk[n1
+R0
+R1
+w1524748752
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z8 !s108 1524749421.000000
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate0
+R6
+!i10b 1
+!s100 `lQfVm;`j9hk=X<JA<Da71
+IC@P[TCC36WbBV7j`Ye3ca2
+R0
+R1
+w1524749006
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate1
+R6
+!i10b 1
+!s100 2eh8M`0m1<;`3lCHz8?Li3
+I0m3oHQ9U<lAOSjk3h5eGm2
+R0
+R1
+w1524749383
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate10
+Z9 !s110 1524749422
+!i10b 1
+!s100 E9T=1V5G_La03=Fa;1l8D3
+IkZzJY3X`76ilY?IFkIYh52
+R0
+R1
+w1524749388
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v
+R7
+R2
+r1
+!s85 0
+31
+Z10 !s108 1524749422.000000
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate11
+R9
+!i10b 1
+!s100 ClMebLmIZo=5JHRagO3A<2
+IYdGfZLcXGo1_:Z:d@5_0W1
+R0
+R1
+w1524749375
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate12
+R9
+!i10b 1
+!s100 1[20B@54if;S5e6dCQiH<0
+I]oU@Slb5jz0Z4ifKTBfYN2
+R0
+R1
+w1524749371
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate13
+Z11 !s110 1524749423
+!i10b 1
+!s100 g]HnE83^LVkbOaA?lIfeP0
+IekM5o@6HOkc1Z1j;4N1b`3
+R0
+R1
+w1524749366
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v
+R7
+R2
+r1
+!s85 0
+31
+Z12 !s108 1524749423.000000
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate14
+R11
+!i10b 1
+!s100 >ihdm=hRAh4U;VQ2]c6o_3
+IGS7^Fe<o`_bo6AJC2hCGO2
+R0
+R1
+w1524749362
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
+R7
+R2
+r1
+!s85 0
+31
+R12
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate15
+R4
+!i10b 1
+!s100 @z61>9z<[2B]iFAYa6<OM1
+IN[DHKI]7`6EEz2UNQceQ92
+R0
+R1
+w1524749357
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v
+R7
+R2
+r1
+!s85 0
+31
+R5
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate2
+R6
+!i10b 1
+!s100 Ln[^[^lTaCAVO88Mf4YS?1
+I190I^jVMFh[hG=ohd3iO03
+R0
+R1
+w1524749352
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate3
+R6
+!i10b 1
+!s100 V`<EXgB0JzQad3d]j`PzH1
+I49?O21CD4^A59RP2Lo0hf1
+R0
+R1
+w1524749345
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate4
+R6
+!i10b 1
+!s100 7bOZJT:^45APZdlz__Xjf1
+I6m;afUDi6FiO^F]RM7X2F0
+R0
+R1
+w1524749340
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate5
+R9
+!i10b 1
+!s100 I5cDoTMFU@<OcIXfFB0610
+IXT_?7MJEI6;=8XDG8LGgV1
+R0
+R1
+w1524749335
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate6
+R9
+!i10b 1
+!s100 EnNM2[g[NVdj=NZ7N:BA63
+Idm`NgfaGLU9So>`Zi=3I51
+R0
+R1
+w1524749330
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate7
+R9
+!i10b 1
+!s100 b4D3^c`4`M`b:EmhoB@a90
+I[eknQiRDQH?C7]gY]VYOn2
+R0
+R1
+w1524749379
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate8
+R9
+!i10b 1
+!s100 kISZoEPG]UXST;;L_cCf[2
+Iz>:H2FQ[VnE>:PcdN<6od3
+R0
+R1
+w1524749409
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v|
+!s101 -O0
+!i113 1
+R3
+vshift_accumulate9
+R9
+!i10b 1
+!s100 hLek630eeKDKo75N]86mD3
+ITl5`[;@W?FJGjQ:4N`TA33
+R0
+R1
+w1524749415
+8G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v
+FG:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v
+R7
+R2
+r1
+!s85 0
+31
+R10
+!s107 G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v|
+!s101 -O0
+!i113 1
+R3
 vtest_bench
-!s110 1524746941
+R4
 !i10b 1
 !s100 3V]lezY79GHJIEmW:F3cT0
 IOFY?jDJzH@0]47nZjJcN32
+R0
 R1
-R2
 w1524463788
 8G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
 FG:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1524746941.000000
+R5
 !s107 G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v|
 !s101 -O0
 !i113 1
-R5
+R3
