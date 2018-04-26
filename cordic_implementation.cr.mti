@@ -1,0 +1,15 @@
+G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_block
+
+Top level modules:
+	cordic_block
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+
+} {} {}}
