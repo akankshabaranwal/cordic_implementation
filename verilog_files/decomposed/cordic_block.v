@@ -47,15 +47,15 @@ module cordic_block(valid,x0,y0,z0,n,clk,x,y,z);
 				begin
 					if ($signed(z)<$signed(0))
 						begin
-							x<=x+(y>>i);
-							y<=y-(x>>i);
+							x<=x+($signed(y)>>>i);
+							y<=y-($signed(x)>>>i);
 							z<=z+rom;
 							i<=i+1;
 						end
 					else
 						begin
-							x<=x-(y>>i);
-							y<=y+(x>>i);
+							x<=x-($signed(y)>>>i);
+							y<=y+($signed(x)>>>i);
 							z<=z-rom;
 							i<=i+1;
 						end

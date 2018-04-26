@@ -33,14 +33,14 @@ output reg [31:0] z_out
        begin
            if($signed(z)>$signed(0))
            begin
-              x_out<=x-(y>>8);
-              y_out<=y+(x>>8);
+              x_out<=x-($signed(y)>>>8);
+              y_out<=y+($signed(x)>>>8);
               z_out<=z-tan;
            end
            else
            begin
-               x_out<=x+(y>>8);
-               y_out<=y-(x>>8);
+               x_out<=x+($signed(y)>>>8);
+               y_out<=y-($signed(x)>>>8);
                z_out<=z+tan;
            end
        end

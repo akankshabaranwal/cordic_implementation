@@ -23,14 +23,14 @@ input wire [31:0] x0,
 input wire [31:0] y0,
 input wire [31:0] z0,
 input wire clk,
-output reg [31:0] x,
-output reg [31:0] y
+output reg [31:0] X,
+output reg [31:0] Y
 );
 
 reg [31:0] tanarray [0:15];
-wire [31:0] x [0:15];
-wire [31:0] y [0:15];
-wire [31:0] z [0:15];
+wire [31:0] x [0:16];
+wire [31:0] y [0:16];
+wire [31:0] z [0:16];
 
 initial begin
   tanarray[0]<=32'd51471;
@@ -70,8 +70,8 @@ end
 
 always@(posedge clk)
   begin
-    y<=y16;
-    x<=x16;
+    Y<=y[16];
+    X<=x[16];
   end
 
 endmodule
