@@ -5,13 +5,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shift_accumulate13
 
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate14
-
-Top level modules:
-	shift_accumulate14
-
 } {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module lookup_table
@@ -19,12 +12,26 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	lookup_table
 
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate14
+
+Top level modules:
+	shift_accumulate14
+
 } {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate15
 
 Top level modules:
 	shift_accumulate15
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate
+
+Top level modules:
+	shift_accumulate
 
 } {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -103,6 +110,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	cordic_tb
 
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v {1 {vlog -work work -stats=none {G:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_updated
+
+Top level modules:
+	cordic_updated
+
 } {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate10
@@ -124,12 +138,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shift_accumulate11
 
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module cordic_block
+-- Compiling module test_bench
 
 Top level modules:
-	cordic_block
+	test_bench
 
 } {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -144,12 +158,5 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	cordic
-
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module test_bench
-
-Top level modules:
-	test_bench
 
 } {} {}}

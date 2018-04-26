@@ -1,8 +1,8 @@
 module lookup_table(i,out);
 	input [31:0]i;
-	output reg [31:0]out;
+	output reg signed [31:0]out;
 
-	reg [31:0]lu[0:15];
+	reg signed [31:0]lu[0:16];
 	
 	initial
 		begin
@@ -22,6 +22,7 @@ module lookup_table(i,out);
 			lu[13]=32'd7;
 			lu[14]=32'd3;
 			lu[15]=32'd1;
+			lu[16]=32'd0;
 
 			out=32'b0;
 		end

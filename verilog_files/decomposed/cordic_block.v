@@ -1,22 +1,22 @@
 module cordic_block(valid,x0,y0,z0,n,clk,x,y,z);
 
-	input [31:0]x0;
-	input [31:0]y0;
-	input [31:0]z0;
+	input signed [31:0]x0;
+	input signed [31:0]y0;
+	input signed [31:0]z0;
 	input [31:0]n;
 	input clk;
 	input valid;
 
-	output reg [31:0]x;
-	output reg [31:0]y;
-	output reg [31:0]z;
+	output reg signed [31:0]x;
+	output reg signed [31:0]y;
+	output reg signed [31:0]z;
 
 	reg [31:0]i;
 	// reg flag;
 	// reg d;
 	// reg [31:0]x_temp;
 	// reg [31:0]y_temp;
-	wire [31:0]rom;
+	wire signed [31:0]rom;
 
 	lookup_table lu1(i,rom);
 
@@ -45,7 +45,7 @@ module cordic_block(valid,x0,y0,z0,n,clk,x,y,z);
 				end
 			else if (i<n)
 				begin
-					if ($signed(z)<$signed(0))
+					if ($signed(z)<=$signed(0))
 						begin
 							x<=x+($signed(y)>>>i);
 							y<=y-($signed(x)>>>i);

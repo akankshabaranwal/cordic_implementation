@@ -14,82 +14,23 @@ module test_bench();
 
 	initial
 		begin
-			x0=32'd1000000;
-			y0=32'd1000000;
-			z0=32'd33;
-			valid=1;
-			clk=0;
-			n=32'd15;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			valid=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
-			#5
-			clk=1;
-			#5
-			clk=0;
+			x0<=32'd65536;
+			y0<=32'd0;
+			z0<=32'd102943;
+			valid<=1;
+			clk<=0;
+			n<=32'd16;
 		end
+
+
+    always
+       begin
+      	 #5  
+       	 clk <=  ! clk;
+         #5
+         valid<=0;
+       	 clk <=  ! clk;
+       end
 
 
 endmodule
