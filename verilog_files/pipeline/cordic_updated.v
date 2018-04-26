@@ -18,7 +18,7 @@
 // Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
-module cordic(
+module cordic_update(
 input wire [31:0] x0,
 input wire [31:0] y0,
 input wire [31:0] z0,

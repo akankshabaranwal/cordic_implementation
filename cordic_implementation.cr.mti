@@ -1,194 +1,155 @@
-G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v
+G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate13
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate13.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate13
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate14
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate14.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate14
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/lookup_table.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module lookup_table
 
 Top level modules:
 	lookup_table
 
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate15
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate15.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate15
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate0.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate0
+
+Top level modules:
+	shift_accumulate0
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate
 
 Top level modules:
 	shift_accumulate
 
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate1
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate1.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate2
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate3
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate4
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate5
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate6
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate7
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift_accumulate8
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v(31): near ")": Missing port in ansi port list.
-
-
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module pipelined_tb
 
 Top level modules:
-	pipelined_tb
+	shift_accumulate1
 
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate2
+
+Top level modules:
+	shift_accumulate2
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate3.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate3
+
+Top level modules:
+	shift_accumulate3
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate4.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate4
+
+Top level modules:
+	shift_accumulate4
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate5.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate5
+
+Top level modules:
+	shift_accumulate5
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate6.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate6
+
+Top level modules:
+	shift_accumulate6
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate7.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate7
+
+Top level modules:
+	shift_accumulate7
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_tb
+
+Top level modules:
+	cordic_tb
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate8.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift_accumulate8
+
+Top level modules:
+	shift_accumulate8
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v {1 {vlog -work work -stats=none {G:\ModelSim\cordic_implementation\verilog_files\pipeline\cordic_updated.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_update
+
+Top level modules:
+	cordic_update
+
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate10
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate10.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate10
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate9
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate9.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate9
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/cordic_block.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module cordic
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(65): (vlog-2110) Illegal reference to parameter "i0".
+-- Compiling module cordic_block
 
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(65): 'i0' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(65): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(66): (vlog-2110) Illegal reference to parameter "i1".
+Top level modules:
+	cordic_block
 
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(66): 'i1' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(66): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(67): (vlog-2110) Illegal reference to parameter "i2".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(67): 'i2' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(67): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(68): (vlog-2110) Illegal reference to parameter "i3".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(68): 'i3' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(68): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(69): (vlog-2110) Illegal reference to parameter "i4".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(69): 'i4' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(69): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(70): (vlog-2110) Illegal reference to parameter "i5".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(70): 'i5' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(70): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(71): (vlog-2110) Illegal reference to parameter "i6".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(71): 'i6' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(71): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(72): (vlog-2110) Illegal reference to parameter "i7".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(72): 'i7' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(72): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(73): (vlog-2110) Illegal reference to parameter "i8".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(73): 'i8' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(73): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(74): (vlog-2110) Illegal reference to parameter "i9".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(74): 'i9' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(74): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(75): (vlog-2110) Illegal reference to parameter "i10".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(75): 'i10' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(75): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(76): (vlog-2110) Illegal reference to parameter "i11".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(76): 'i11' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(76): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(77): (vlog-2110) Illegal reference to parameter "i12".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(77): 'i12' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(77): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(78): (vlog-2110) Illegal reference to parameter "i13".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(78): 'i13' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(78): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(79): (vlog-2110) Illegal reference to parameter "i14".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(79): 'i14' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(79): Illegal LHS of assignment.
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(80): (vlog-2110) Illegal reference to parameter "i15".
-
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(80): 'i15' is not a variable
-** Error: G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic_updated.v(80): Illegal LHS of assignment.
-
-} {4.0 5.0 6.0 9.0 10.0 13.0 14.0 17.0 18.0 21.0 22.0 25.0 26.0 29.0 30.0 33.0 34.0 37.0 38.0 41.0 42.0 45.0 46.0 49.0 50.0 53.0 54.0 57.0 58.0 61.0 62.0 65.0 66.0 68.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate11
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate11.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate11
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v {0 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module shift_accumulate12
-** Error: (vlog-13038) G:/ModelSim/cordic_implementation/verilog_files/pipeline/shift_accumulate12.v(31): near ")": Missing port in ansi port list.
 
+Top level modules:
+	shift_accumulate12
 
-} {4.0 5.0} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
+} {} {}} G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/decomposed/test_bench.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module test_bench
 
 Top level modules:
 	test_bench
-
-} {} {}} G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic.v {1 {vlog -work work -stats=none G:/ModelSim/cordic_implementation/verilog_files/pipeline/cordic.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module cordic
-
-Top level modules:
-	cordic
 
 } {} {}}
