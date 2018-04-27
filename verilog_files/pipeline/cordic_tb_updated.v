@@ -19,8 +19,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-  module cordic_tb_updated;
-    reg clk;
+  module cordic_tb_updated (input ready,input test1,input clk,output reg test2,output reg valid);
+    
     reg [31:0] x0;
     reg [31:0] y0;
     reg [31:0] z0;
@@ -38,16 +38,30 @@
 
     initial
     begin
-      clk <= 0;
-      x0<=32'd65536;
+      x0<=32'd0;
       y0<=32'd0;
-      z0<=32'd102943;
+      z0<=32'd0;
+      test2<=0;
     end
 
-    always
+    always @(posedge ready)
        begin
-       #5  clk =  ! clk;
-        $display(y);
+         x0<=32'd65536;
+         y0<=32'd0;
+         z0<=32'd102943;
        end
+    
+    always
+        begin
+            test2<=test1;
+        end
+    always @(posedge clk)
+        begin            
+            if((x==32'd0)&&(y==32'd107923))
+                begin
+                    valid<=1;
+                end
+        end
+
 
  endmodule
