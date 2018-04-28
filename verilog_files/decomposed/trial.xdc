@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN R16 [get_ports clk]
+set_property PACKAGE_PIN R18 [get_ports ready]
+set_property PACKAGE_PIN U14 [get_ports correct]
+set_property IOSTANDARD LVCMOS18 [get_ports clk]
+set_property IOSTANDARD LVCMOS18 [get_ports correct]
+set_property IOSTANDARD LVCMOS18 [get_ports ready]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets ready_IBUF]
