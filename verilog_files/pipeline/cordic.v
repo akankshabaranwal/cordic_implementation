@@ -19,18 +19,18 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module cordic(
-input wire [31:0] x0,
-input wire [31:0] y0,
-input wire [31:0] z0,
+input wire signed [31:0] x0,
+input wire signed [31:0] y0,
+input wire signed [31:0] z0,
 input wire clk,
-output reg [31:0] X,
-output reg [31:0] Y
+output reg signed [31:0] X,
+output reg signed [31:0] Y
 );
 
-reg [31:0] tanarray [0:15];
-wire [31:0] x [0:16];
-wire [31:0] y [0:16];
-wire [31:0] z [0:16];
+reg signed [31:0] tanarray [0:15];
+wire signed [31:0] x [0:16];
+wire signed [31:0] y [0:16];
+wire signed [31:0] z [0:16];
 
 initial begin
   tanarray[0]<=32'd51471;
