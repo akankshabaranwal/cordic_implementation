@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_accumulate
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_updated.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_updated
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_tb_updated.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_tb_updated
+WARNING: [VRFC 10-1771] potential always loop found [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_tb_updated.v:54]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

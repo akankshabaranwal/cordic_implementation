@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Apr 27 22:59:10 2018
+# Process ID: 12605
+# Current directory: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav/xsim.dir/cordic_tb_updated_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav/webtalk.log
+# Journal file: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.sim/sim_1/behav/xsim.dir/cordic_tb_updated_behav/webtalk/xsim_webtalk.tcl -notrace

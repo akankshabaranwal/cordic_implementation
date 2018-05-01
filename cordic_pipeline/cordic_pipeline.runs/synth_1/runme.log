@@ -1,0 +1,498 @@
+
+*** Running vivado
+    with args -log cordic_tb_updated.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cordic_tb_updated.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source cordic_tb_updated.tcl -notrace
+Command: synth_design -top cordic_tb_updated -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8850 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1094.539 ; gain = 160.094 ; free physical = 568 ; free virtual = 4642
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cordic_tb_updated' [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_tb_updated.v:22]
+INFO: [Synth 8-638] synthesizing module 'cordic_updated' [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_updated.v:21]
+	Parameter i0 bound to: 0 - type: integer 
+	Parameter i1 bound to: 1 - type: integer 
+	Parameter i2 bound to: 2 - type: integer 
+	Parameter i3 bound to: 3 - type: integer 
+	Parameter i4 bound to: 4 - type: integer 
+	Parameter i5 bound to: 5 - type: integer 
+	Parameter i6 bound to: 6 - type: integer 
+	Parameter i7 bound to: 7 - type: integer 
+	Parameter i8 bound to: 8 - type: integer 
+	Parameter i9 bound to: 9 - type: integer 
+	Parameter i10 bound to: 10 - type: integer 
+	Parameter i11 bound to: 11 - type: integer 
+	Parameter i12 bound to: 12 - type: integer 
+	Parameter i13 bound to: 13 - type: integer 
+	Parameter i14 bound to: 14 - type: integer 
+	Parameter i15 bound to: 15 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'shift_accumulate' [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v:1]
+INFO: [Synth 8-256] done synthesizing module 'shift_accumulate' (1#1) [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v:1]
+INFO: [Synth 8-256] done synthesizing module 'cordic_updated' (2#1) [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_updated.v:21]
+WARNING: [Synth 8-85] always block has no event control specified [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_tb_updated.v:53]
+INFO: [Synth 8-256] done synthesizing module 'cordic_tb_updated' (3#1) [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/cordic_tb_updated.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1136.016 ; gain = 201.570 ; free physical = 526 ; free virtual = 4600
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1136.016 ; gain = 201.570 ; free physical = 526 ; free virtual = 4600
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc]
+WARNING: [Vivado 12-507] No nets matched 'ready_IBUF'. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'cl_IBUF'. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clk_test_OBUF'. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.srcs/constrs_1/new/trial.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cordic_tb_updated_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/cordic_tb_updated_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.129 ; gain = 0.000 ; free physical = 276 ; free virtual = 4339
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1486.133 ; gain = 551.688 ; free physical = 275 ; free virtual = 4338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1486.133 ; gain = 551.688 ; free physical = 275 ; free virtual = 4338
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1486.133 ; gain = 551.688 ; free physical = 275 ; free virtual = 4338
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v:15]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v:15]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/verilog_files/pipeline/shift_accumulate.v:15]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1486.133 ; gain = 551.688 ; free physical = 270 ; free virtual = 4333
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 48    
++---Registers : 
+	               32 Bit    Registers := 53    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 48    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module cordic_tb_updated 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
+Module shift_accumulate 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module cordic_updated 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'z0_reg[0]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[1]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[2]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[3]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[4]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[5]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[6]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[7]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[8]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[9]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[10]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[11]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[12]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[13]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[14]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[15]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[16]' (FD) to 'x0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[17]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[18]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[19]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[20]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[21]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[22]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[23]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[24]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[25]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[26]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[27]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[28]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[29]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[30]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'z0_reg[31]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[0]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[1]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[2]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[3]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[4]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[5]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[6]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[7]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[8]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[9]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[10]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[11]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[12]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[13]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[14]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[15]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[16]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[17]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[18]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[19]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[20]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[21]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[22]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[23]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[24]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[25]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[26]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[27]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[28]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[29]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[30]' (FD) to 'y0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'y0_reg[31]' (FD) to 'x0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[0]' (FD) to 'x0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[1]' (FD) to 'x0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[2]' (FD) to 'x0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[3]' (FD) to 'x0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[4]' (FD) to 'x0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[5]' (FD) to 'x0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[6]' (FD) to 'x0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[7]' (FD) to 'x0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[8]' (FD) to 'x0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[9]' (FD) to 'x0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[10]' (FD) to 'x0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[11]' (FD) to 'x0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[12]' (FD) to 'x0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[13]' (FD) to 'x0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[14]' (FD) to 'x0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[15]' (FD) to 'x0_reg[17]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[17]' (FD) to 'x0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[18]' (FD) to 'x0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[19]' (FD) to 'x0_reg[20]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[20]' (FD) to 'x0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[21]' (FD) to 'x0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[22]' (FD) to 'x0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[23]' (FD) to 'x0_reg[24]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[24]' (FD) to 'x0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[25]' (FD) to 'x0_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[26]' (FD) to 'x0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[27]' (FD) to 'x0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[28]' (FD) to 'x0_reg[29]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[29]' (FD) to 'x0_reg[30]'
+INFO: [Synth 8-3886] merging instance 'x0_reg[30]' (FD) to 'x0_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\x0_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (x0_reg[31]) is unused and will be removed from module cordic_tb_updated.
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[15]' (FD) to 'uut/shift_accumulate0/y_out_reg[31]'
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[16]' (FD) to 'uut/shift_accumulate0/z_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[17]' (FD) to 'uut/shift_accumulate0/y_out_reg[31]'
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[18]' (FD) to 'uut/shift_accumulate0/y_out_reg[31]'
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[19]' (FD) to 'uut/shift_accumulate0/y_out_reg[31]'
+INFO: [Synth 8-3886] merging instance 'uut/shift_accumulate0/y_out_reg[20]' (FD) to 'uut/shift_accumulate0/y_out_reg[31]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut/shift_accumulate0 /\z_out_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate0 /\x_out_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut/shift_accumulate1 /\z_out_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate1 /\y_out_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut/shift_accumulate2 /\z_out_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate2 /\x_out_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uut/shift_accumulate3 /\z_out_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate3 /\y_out_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate4 /\x_out_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uut/shift_accumulate5 /\x_out_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[15]) is unused and will be removed from module shift_accumulate__1.
+WARNING: [Synth 8-3332] Sequential element (x_out_reg[14]) is unused and will be removed from module shift_accumulate__1.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[14]) is unused and will be removed from module shift_accumulate__2.
+WARNING: [Synth 8-3332] Sequential element (y_out_reg[31]) is unused and will be removed from module shift_accumulate__2.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[12]) is unused and will be removed from module shift_accumulate__3.
+WARNING: [Synth 8-3332] Sequential element (x_out_reg[31]) is unused and will be removed from module shift_accumulate__3.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[31]) is unused and will be removed from module shift_accumulate__4.
+WARNING: [Synth 8-3332] Sequential element (y_out_reg[31]) is unused and will be removed from module shift_accumulate__4.
+WARNING: [Synth 8-3332] Sequential element (x_out_reg[31]) is unused and will be removed from module shift_accumulate__5.
+WARNING: [Synth 8-3332] Sequential element (x_out_reg[0]) is unused and will be removed from module shift_accumulate__6.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[31]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[30]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[29]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[28]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[27]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[26]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[25]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[24]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[23]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[22]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[21]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[20]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[19]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[18]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[17]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[16]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[15]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[14]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[13]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[12]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[11]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[10]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[9]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[8]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[7]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[6]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[5]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[4]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[3]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[2]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[1]) is unused and will be removed from module shift_accumulate.
+WARNING: [Synth 8-3332] Sequential element (z_out_reg[0]) is unused and will be removed from module shift_accumulate.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 269 ; free virtual = 4332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 261 ; free virtual = 4324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 260 ; free virtual = 4324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name       | RTL Name                            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|cordic_tb_updated | uut/shift_accumulate4/y_out_reg[16] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   305|
+|3     |LUT1   |    83|
+|4     |LUT2   |   674|
+|5     |LUT3   |   638|
+|6     |LUT4   |     1|
+|7     |LUT6   |    12|
+|8     |SRL16E |     1|
+|9     |FDRE   |  1117|
+|10    |IBUF   |     2|
+|11    |OBUF   |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------+--------------------+------+
+|      |Instance               |Module              |Cells |
++------+-----------------------+--------------------+------+
+|1     |top                    |                    |  2837|
+|2     |  uut                  |cordic_updated      |  2829|
+|3     |    shift_accumulate0  |shift_accumulate    |     6|
+|4     |    shift_accumulate1  |shift_accumulate_0  |     6|
+|5     |    shift_accumulate10 |shift_accumulate_1  |   253|
+|6     |    shift_accumulate11 |shift_accumulate_2  |   253|
+|7     |    shift_accumulate12 |shift_accumulate_3  |   253|
+|8     |    shift_accumulate13 |shift_accumulate_4  |   253|
+|9     |    shift_accumulate14 |shift_accumulate_5  |   214|
+|10    |    shift_accumulate15 |shift_accumulate_6  |    64|
+|11    |    shift_accumulate2  |shift_accumulate_7  |     9|
+|12    |    shift_accumulate3  |shift_accumulate_8  |    20|
+|13    |    shift_accumulate4  |shift_accumulate_9  |   158|
+|14    |    shift_accumulate5  |shift_accumulate_10 |   251|
+|15    |    shift_accumulate6  |shift_accumulate_11 |   253|
+|16    |    shift_accumulate7  |shift_accumulate_12 |   253|
+|17    |    shift_accumulate8  |shift_accumulate_13 |   253|
+|18    |    shift_accumulate9  |shift_accumulate_14 |   253|
++------+-----------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 43 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.137 ; gain = 112.480 ; free physical = 259 ; free virtual = 4322
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1486.137 ; gain = 551.691 ; free physical = 259 ; free virtual = 4322
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 307 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+136 Infos, 47 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1486.137 ; gain = 480.176 ; free physical = 260 ; free virtual = 4323
+INFO: [Common 17-1381] The checkpoint '/home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.runs/synth_1/cordic_tb_updated.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1510.145 ; gain = 0.000 ; free physical = 258 ; free virtual = 4322
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 28 01:13:05 2018...
