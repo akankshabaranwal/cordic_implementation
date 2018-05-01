@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Apr 28 00:19:53 2018
+# Process ID: 26803
+# Current directory: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.runs/impl_1
+# Command line: vivado -log cordic_tb_updated.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cordic_tb_updated.tcl -notrace
+# Log file: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.runs/impl_1/cordic_tb_updated.vdi
+# Journal file: /home/sonal/Desktop/vlsi-arch/project/cordic_implementation/cordic_pipeline/cordic_pipeline.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source cordic_tb_updated.tcl -notrace

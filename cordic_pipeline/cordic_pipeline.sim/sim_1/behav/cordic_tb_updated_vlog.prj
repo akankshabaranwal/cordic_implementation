@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../verilog_files/pipeline/shift_accumulate.v"
+verilog xil_defaultlib  "../../../../verilog_files/pipeline/cordic_updated.v"
+verilog xil_defaultlib  "../../../../verilog_files/pipeline/cordic_tb_updated.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
